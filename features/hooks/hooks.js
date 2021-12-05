@@ -3,7 +3,8 @@ const { openBrowser, goto, closeBrowser, write, press, screenshot } = require('t
 
 Before(async () => {
     console.log("Before");
-    await openBrowser({ headless: false })
+    // await openBrowser({ headless: false })
+    await openBrowser();
     await goto("https://the-internet.herokuapp.com/login");
 });
 

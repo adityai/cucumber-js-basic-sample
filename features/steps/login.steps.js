@@ -1,9 +1,9 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click, title } = require('taiko');
+const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click, title, text } = require('taiko');
 const assert = require('assert').strict;
 
-// const LoginPage = require('../pages/login.page');
-// const SecurePage = require('../pages/secure.page');
+const LoginPage = require('../pages/login.page');
+const SecurePage = require('../pages/secure.page');
 
 Given('the user is on login page', async () => {
   title().then(value => {
@@ -22,15 +22,15 @@ When('clicks on login button', async () => {
 });
 
 Then('the user must navigate to secure area page displaying a message {string}', async (successMessage) => {
-  // expect(SecurePage.secureAreaElement).toExist();
-  // expect(SecurePage.secureAreaElement).toHaveTextContaining('Secure Area');
-  // expect(SecurePage.messageElement).toExist();
-  // expect(SecurePage.messageElement).toHaveTextContaining(successMessage);
+  SecurePage.secureAreaElement.exists();
+  SecurePage.secureAreaElement.text().then(value => {
+    assert.equal(value, successMessage);
+  });
 });
 
 Then('the user must remain on login page displaying a message {string}', async (errorMessage) => {
-  // expect(LoginPage.loginPageElement).toExist();
-  // expect(LoginPage.loginPageElement).toHaveTextContaining('Login Page');
-  // expect(LoginPage.messageElement).toExist();
-  // expect(LoginPage.messageElement).toHaveTextContaining(errorMessage);
+  LoginPage.loginPageElement.exists();
+  LoginPage.loginPageElement.text().then(value => {
+    assert.equal(value, errorMessage);
+  });
 });
