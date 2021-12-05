@@ -3,7 +3,6 @@ const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, clic
 const assert = require('assert').strict;
 
 When(/^The user clicks on (\w+) (\d+)$/, async (element_name_prefix, element_name_numeric_suffix) => {
-  console.log("-----------------Clicking " + element_name_prefix + " " + element_name_numeric_suffix);
   checkBox(element_name_prefix + " " + element_name_numeric_suffix).check();
 });
 

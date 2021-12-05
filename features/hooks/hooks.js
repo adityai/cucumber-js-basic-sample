@@ -7,7 +7,14 @@ Before(async (url_path) => {
     await openBrowser();
 });
 
-After(async () => {
-    console.log("After");
+// After(async () => {
+//     console.log("After");
+//     await closeBrowser();
+// });
+
+After(async (testCase) => {
+    if (testCase.result.status === 'FAILED') {
+        await screenshot();
+    }
     await closeBrowser();
 });
