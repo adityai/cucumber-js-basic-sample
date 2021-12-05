@@ -1,23 +1,23 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { openBrowser, goto, write, click, closeBrowser } = require('taiko');
+const { title } = require('taiko');
+const assert = require('assert').strict;
 
 // const LoginPage = require('../pages/login.page');
 // const SecurePage = require('../pages/secure.page');
 
 Given('the user is on login page', function () {
   console.log('the user is on login page');
-  // LoginPage.open();
-  // expect(browser).toHaveTitle('The Internet');
+  assert.equal(title(), "The Internet");
 });
 
 When('the user enters username as {string} and password as {string}', function (username, password) {
   console.log('the user enters username as ' + username + ":" + password);
-  // LoginPage.userNameTextBox.setValue(username);
-  // LoginPage.passwordTextBox.setValue(password);
+  await write("tester", into($('#username')));
+  await write("tester", into($('#password')));
 });
 
 When('clicks on login button', function () {
-  // LoginPage.loginButton.click();
+  await click($('#login > button'));
 });
 
 Then('the user must navigate to secure area page displaying a message {string}', function (successMessage) {
