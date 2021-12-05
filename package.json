@@ -88,7 +88,7 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "test": "cucumber-js --format json:results.json"
+    "test": "cucumber-js --format json:results.json --parallel 3"
   },
   "author": "",
   "license": "ISC",

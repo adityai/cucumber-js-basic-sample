@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2746472854
+              "duration": 3868968735
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 269961
+              "duration": 10507134
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2354640336
+              "duration": 2509051985
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1962750002
+              "duration": 2070801540.9999998
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 295966
+              "duration": 4794130
             }
           },
           {
@@ -74,7 +74,165 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 174016636
+              "duration": 260949193.99999997
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "The one where user logs in using invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3661751292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8942080
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2387896441
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1964449165.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user must remain on login page displaying a message \"Invalid username!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4169049
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243244508
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "The one where user logs in using invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3735715130
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7267334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2395568745
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2068120246.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user must remain on login page displaying a message \"Invalid password!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6569254
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268307201.00000003
             }
           }
         ],
