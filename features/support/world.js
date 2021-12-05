@@ -1,5 +1,4 @@
 const { setWorldConstructor } = require("@cucumber/cucumber");
-const { openBrowser, goto, write, click, closeBrowser } = require('taiko');
 
 class CustomWorld {
   constructor() {

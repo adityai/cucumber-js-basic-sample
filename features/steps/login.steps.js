@@ -5,12 +5,13 @@ const { openBrowser, goto, write, click, closeBrowser } = require('taiko');
 // const SecurePage = require('../pages/secure.page');
 
 Given('the user is on login page', function () {
-  // openBrowser({ headless: false }, { args: ['--window-size=1440,900'] });
+  console.log('the user is on login page');
   // LoginPage.open();
   // expect(browser).toHaveTitle('The Internet');
 });
 
 When('the user enters username as {string} and password as {string}', function (username, password) {
+  console.log('the user enters username as ' + username + ":" + password);
   // LoginPage.userNameTextBox.setValue(username);
   // LoginPage.passwordTextBox.setValue(password);
 });

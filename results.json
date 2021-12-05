@@ -10,6 +10,14 @@
         "name": "The one where user logs in using valid credentials",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1397877594
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -19,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 358573
+              "duration": 711199
             }
           },
           {
@@ -32,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 238692
+              "duration": 816541
             }
           },
           {
@@ -41,11 +49,11 @@
             "line": 8,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 68547
+              "duration": 84705
             }
           },
           {
@@ -54,11 +62,19 @@
             "line": 9,
             "name": "the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
             "match": {
-              "location": "features/steps/login.steps.js:22"
+              "location": "features/steps/login.steps.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 96408
+              "duration": 120347
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 173702180
             }
           }
         ],
@@ -73,6 +89,14 @@
         "name": "The one where user logs in using invalid credentials",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1393928539
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -82,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72460
+              "duration": 833796
             }
           },
           {
@@ -95,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96165
+              "duration": 683589
             }
           },
           {
@@ -104,11 +128,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 49444
+              "duration": 141461
             }
           },
           {
@@ -117,11 +141,19 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid username!\"",
             "match": {
-              "location": "features/steps/login.steps.js:29"
+              "location": "features/steps/login.steps.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 103889
+              "duration": 197929
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 185188251
             }
           }
         ],
@@ -136,6 +168,14 @@
         "name": "The one where user logs in using invalid credentials",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1277339037
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -145,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53928
+              "duration": 492037
             }
           },
           {
@@ -158,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93908
+              "duration": 724543
             }
           },
           {
@@ -167,11 +207,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 134984
+              "duration": 126255
             }
           },
           {
@@ -180,11 +220,19 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid password!\"",
             "match": {
-              "location": "features/steps/login.steps.js:29"
+              "location": "features/steps/login.steps.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 196221
+              "duration": 365430
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 188066103
             }
           }
         ],
@@ -210,6 +258,14 @@
         "name": "easy maths",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1419331126
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
@@ -219,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 275107
+              "duration": 478451
             }
           },
           {
@@ -232,7 +288,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 87939
+              "duration": 105500
             }
           },
           {
@@ -245,7 +301,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 127216
+              "duration": 149280
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204602648
             }
           }
         ],
@@ -260,6 +324,14 @@
         "name": "much more complex stuff",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1401185246
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 13,
@@ -269,7 +341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46964
+              "duration": 197515
             }
           },
           {
@@ -282,7 +354,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41578
+              "duration": 51768
             }
           },
           {
@@ -295,7 +367,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41007
+              "duration": 57886
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 187093607
             }
           }
         ],
@@ -310,6 +390,14 @@
         "name": "much more complex stuff",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1367629523
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 13,
@@ -319,7 +407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42693
+              "duration": 238425
             }
           },
           {
@@ -332,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41399
+              "duration": 68107
             }
           },
           {
@@ -345,7 +433,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38999
+              "duration": 52982
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 210742803
             }
           }
         ],
@@ -360,6 +456,14 @@
         "name": "much more complex stuff",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1318209072
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 13,
@@ -369,7 +473,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42293
+              "duration": 84196
             }
           },
           {
@@ -382,7 +486,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45579
+              "duration": 40946
             }
           },
           {
@@ -395,7 +499,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40261
+              "duration": 37827
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193937709
             }
           }
         ],

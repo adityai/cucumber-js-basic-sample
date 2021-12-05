@@ -1,9 +1,13 @@
-const { Before, After } = require('@cucumber/cucumber');
+const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber');
+const { openBrowser, goto, closeBrowser, write, press, screenshot } = require('taiko');
 
-Before({ tags: "@UI" }, function () {
+
+Before(async () => {
     console.log("Before");
+    await openBrowser({ headless: false })
 });
 
-After({ tags: "@UI" }, function () {
+After(async () => {
     console.log("After");
+    await closeBrowser();
 });
