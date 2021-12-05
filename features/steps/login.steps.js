@@ -1,12 +1,14 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click } = require('taiko');
+const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click, title } = require('taiko');
 const assert = require('assert').strict;
 
 // const LoginPage = require('../pages/login.page');
 // const SecurePage = require('../pages/secure.page');
 
 Given('the user is on login page', async () => {
-  // await assert.equal(title(), "The Internet");
+  title().then(value => {
+    assert.equal(value, "The Internet");
+  });
 });
 
 When('the user enters username as {string} and password as {string}', async (username, password) => {

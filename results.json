@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3868968735
+              "duration": 3880054464
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10507134
+              "duration": 14155791
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:12"
+              "location": "features/steps/login.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2509051985
+              "duration": 2442035310
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 2070801540.9999998
+              "duration": 1891530559
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
             "match": {
-              "location": "features/steps/login.steps.js:22"
+              "location": "features/steps/login.steps.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 4794130
+              "duration": 5762758
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 260949193.99999997
+              "duration": 472111047
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3661751292
+              "duration": 3936514411
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8942080
+              "duration": 9519264
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 12,
             "name": "the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:12"
+              "location": "features/steps/login.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2387896441
+              "duration": 2412081108
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 1964449165.9999998
+              "duration": 1978997574.9999998
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid username!\"",
             "match": {
-              "location": "features/steps/login.steps.js:29"
+              "location": "features/steps/login.steps.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 4169049
+              "duration": 12820954
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 243244508
+              "duration": 412733415
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3735715130
+              "duration": 3986590481
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7267334
+              "duration": 8594567
             }
           },
           {
@@ -194,11 +194,11 @@
             "line": 12,
             "name": "the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:12"
+              "location": "features/steps/login.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2395568745
+              "duration": 2402862969
             }
           },
           {
@@ -207,11 +207,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:18"
+              "location": "features/steps/login.steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 2068120246.9999998
+              "duration": 1950963622
             }
           },
           {
@@ -220,11 +220,11 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid password!\"",
             "match": {
-              "location": "features/steps/login.steps.js:29"
+              "location": "features/steps/login.steps.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 6569254
+              "duration": 6004698
             }
           },
           {
@@ -232,7 +232,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 268307201.00000003
+              "duration": 401456599
             }
           }
         ],
