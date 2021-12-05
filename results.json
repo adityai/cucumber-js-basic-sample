@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "The one where user logs in using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2746472854
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269961
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2354640336
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1962750002
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295966
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174016636
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\"",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To test the login functionality in \"The Internet Herokuapp\"",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]

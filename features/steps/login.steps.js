@@ -1,33 +1,32 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { title } = require('taiko');
+const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click } = require('taiko');
 const assert = require('assert').strict;
 
 // const LoginPage = require('../pages/login.page');
 // const SecurePage = require('../pages/secure.page');
 
-Given('the user is on login page', function () {
-  console.log('the user is on login page');
-  assert.equal(title(), "The Internet");
+Given('the user is on login page', async () => {
+  // await assert.equal(title(), "The Internet");
 });
 
-When('the user enters username as {string} and password as {string}', function (username, password) {
+When('the user enters username as {string} and password as {string}', async (username, password) => {
   console.log('the user enters username as ' + username + ":" + password);
-  await write("tester", into($('#username')));
-  await write("tester", into($('#password')));
+  await write(username, into($('#username')));
+  await write(password, into($('#password')));
 });
 
-When('clicks on login button', function () {
+When('clicks on login button', async () => {
   await click($('#login > button'));
 });
 
-Then('the user must navigate to secure area page displaying a message {string}', function (successMessage) {
+Then('the user must navigate to secure area page displaying a message {string}', async (successMessage) => {
   // expect(SecurePage.secureAreaElement).toExist();
   // expect(SecurePage.secureAreaElement).toHaveTextContaining('Secure Area');
   // expect(SecurePage.messageElement).toExist();
   // expect(SecurePage.messageElement).toHaveTextContaining(successMessage);
 });
 
-Then('the user must remain on login page displaying a message {string}', function (errorMessage) {
+Then('the user must remain on login page displaying a message {string}', async (errorMessage) => {
   // expect(LoginPage.loginPageElement).toExist();
   // expect(LoginPage.loginPageElement).toHaveTextContaining('Login Page');
   // expect(LoginPage.messageElement).toExist();
