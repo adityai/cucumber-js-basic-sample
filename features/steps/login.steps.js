@@ -5,11 +5,6 @@ const assert = require('assert').strict;
 const LoginPage = require('../pages/login.page');
 const SecurePage = require('../pages/secure.page');
 
-Given('the user is on login page', async () => {
-  title().then(value => {
-    assert.equal(value, "The Internet");
-  });
-});
 
 When('the user enters username as {string} and password as {string}', async (username, password) => {
   console.log('the user enters username as ' + username + ":" + password);

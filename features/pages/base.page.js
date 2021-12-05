@@ -1,3 +1,4 @@
+const { Given, When, Then } = require('@cucumber/cucumber');
 const { openBrowser, goto, closeBrowser, write, press, screenshot, into, $, click, title } = require('taiko');
 
 /*
@@ -14,7 +15,12 @@ module.exports = class BasePage {
         }));
         return returnValue;
     }
+
+
 }
 
+Given(/^the user is on (\w+) page$/, async (page) => {
+    await goto("https://the-internet.herokuapp.com/" + page);
+});
 
 

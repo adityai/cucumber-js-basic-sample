@@ -4,6 +4,83 @@
     "elements": [
       {
         "description": "",
+        "id": "to-test-the-checkboxes-click-ability-in-\"the-internet-herokuapp\";the-one-where-the-user-clicks-on-an-unchecked-checkbox",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "The one where the user clicks on an unchecked checkbox",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 881003258
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on checkboxes page",
+            "match": {
+              "location": "features/pages/base.page.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1565507944.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The user clicks on checkbox 1",
+            "match": {
+              "location": "features/steps/checkboxes.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7830936
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user must see a checkbox 1 is checked",
+            "match": {
+              "location": "features/steps/checkboxes.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2265207
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37776480
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-the-checkboxes-click-ability-in-\"the-internet-herokuapp\"",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To test the checkboxes click-ability in \"The Internet Herokuapp\"",
+    "tags": [],
+    "uri": "features/checkboxes.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-valid-credentials",
         "keyword": "Scenario",
         "line": 6,
@@ -14,7 +91,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2117195006
+              "duration": 876674806
             }
           },
           {
@@ -23,11 +100,11 @@
             "line": 4,
             "name": "the user is on login page",
             "match": {
-              "location": "features/steps/login.steps.js:8"
+              "location": "features/pages/base.page.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 8434512
+              "duration": 1685484639
             }
           },
           {
@@ -36,11 +113,11 @@
             "line": 7,
             "name": "the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:20"
+              "location": "features/steps/login.steps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 368303448
+              "duration": 355288705
             }
           },
           {
@@ -49,11 +126,11 @@
             "line": 8,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:26"
+              "location": "features/steps/login.steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 873047974
+              "duration": 953132908
             }
           },
           {
@@ -62,11 +139,11 @@
             "line": 9,
             "name": "the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
             "match": {
-              "location": "features/steps/login.steps.js:30"
+              "location": "features/steps/login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 5528587
+              "duration": 5343157
             }
           },
           {
@@ -74,7 +151,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 31450555
+              "duration": 31742118
             }
           }
         ],
@@ -93,7 +170,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2125379156
+              "duration": 985217215
             }
           },
           {
@@ -102,11 +179,11 @@
             "line": 4,
             "name": "the user is on login page",
             "match": {
-              "location": "features/steps/login.steps.js:8"
+              "location": "features/pages/base.page.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 10741981
+              "duration": 1714181431
             }
           },
           {
@@ -115,11 +192,11 @@
             "line": 12,
             "name": "the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:20"
+              "location": "features/steps/login.steps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 358009238
+              "duration": 358151244
             }
           },
           {
@@ -128,11 +205,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:26"
+              "location": "features/steps/login.steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 878099653
+              "duration": 957885941
             }
           },
           {
@@ -141,11 +218,11 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid username!\"",
             "match": {
-              "location": "features/steps/login.steps.js:37"
+              "location": "features/steps/login.steps.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 5421540
+              "duration": 4835711
             }
           },
           {
@@ -153,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 40360647
+              "duration": 26681470
             }
           }
         ],
@@ -172,7 +249,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2062175671.9999998
+              "duration": 825723131
             }
           },
           {
@@ -181,11 +258,11 @@
             "line": 4,
             "name": "the user is on login page",
             "match": {
-              "location": "features/steps/login.steps.js:8"
+              "location": "features/pages/base.page.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 7588927
+              "duration": 1619199351
             }
           },
           {
@@ -194,11 +271,11 @@
             "line": 12,
             "name": "the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
             "match": {
-              "location": "features/steps/login.steps.js:20"
+              "location": "features/steps/login.steps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 382569228
+              "duration": 372137035
             }
           },
           {
@@ -207,11 +284,11 @@
             "line": 13,
             "name": "clicks on login button",
             "match": {
-              "location": "features/steps/login.steps.js:26"
+              "location": "features/steps/login.steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 858853927
+              "duration": 921618536
             }
           },
           {
@@ -220,11 +297,11 @@
             "line": 14,
             "name": "the user must remain on login page displaying a message \"Invalid password!\"",
             "match": {
-              "location": "features/steps/login.steps.js:37"
+              "location": "features/steps/login.steps.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 4889165
+              "duration": 5043599
             }
           },
           {
@@ -232,7 +309,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27243505
+              "duration": 27882356
             }
           }
         ],
