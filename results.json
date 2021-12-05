@@ -1,0 +1,250 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "The one where user logs in using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2117195006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8434512
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368303448
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873047974
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5528587
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31450555
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "The one where user logs in using invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2125379156
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10741981
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358009238
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 878099653
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user must remain on login page displaying a message \"Invalid username!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5421540
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40360647
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\";the-one-where-user-logs-in-using-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "The one where user logs in using invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2062175671.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on login page",
+            "match": {
+              "location": "features/steps/login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7588927
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382569228
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "features/steps/login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 858853927
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user must remain on login page displaying a message \"Invalid password!\"",
+            "match": {
+              "location": "features/steps/login.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4889165
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27243505
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-the-login-functionality-in-\"the-internet-herokuapp\"",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To test the login functionality in \"The Internet Herokuapp\"",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
