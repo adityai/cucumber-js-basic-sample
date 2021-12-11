@@ -6,7 +6,6 @@ This class behaves as a Parent class, which contains the common functionalities,
 This module can be imported and called from the child classes.
 */
 module.exports = class BasePage {
-    //TODO: Figure out why this isn't returning a text value
     get titleText() {
         var returnValue;
         title().then((value => {
